@@ -1,0 +1,66 @@
+*, 
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {}
+
+.navbar {
+    background-color: rgb(24, 88, 161);
+    width: 100%;
+    height: 60px;
+}
+
+.ulNavbar {
+    display: flex;
+    height: 50px;
+    right: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.liNavbar {
+    list-style-type: none;
+    padding: 5px;
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Times New Roman', Times, serif;
+    color: rgb(182, 201, 229);
+    font-size: 30px;
+}
+
+.liNavbar:hover {
+    background-color: orangered;
+    transition: 0,2s; ease-in-out;
+    transition-delay: .3s;
+    border-radius : 8px;
+}
+
+.a-navbar {
+    color: orange;
+    text-decoration: none;
+}
+
+.Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.imgContent {
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h1footer {
+    font-size: 40px;
+}
